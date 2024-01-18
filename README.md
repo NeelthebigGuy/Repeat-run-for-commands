@@ -22,3 +22,6 @@ hello
 hello
 
 with 1 second in between each loop.
+
+# how it works
+This program will create a process for the program. within the process, the program creates a new thread for each loop needed while waiting the given secends before creating the next thread. the thread exits once the command is executed. 
