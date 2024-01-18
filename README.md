@@ -9,4 +9,16 @@ This will create two output files, one named "main.o" and another named "repeate
 While still in the directory with the newly made "repeatedly_run" file, start the command with "./repeatedly_run", this will execute the program.
 To pass arguments to the program, the format is:
 
-./repeatedly_run *How many seconds to wait in between each loop* *How many loops* *command to run*
+./repeatedly_run (*How many seconds to wait in between each loop*) (*How many times the command will run*)  (*the command to run*)
+
+For Example:
+./repeatedly_run 5 1 echo hello
+
+will output:
+hello
+hello
+hello
+hello
+hello
+
+with 1 second in between each loop.
